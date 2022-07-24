@@ -1,0 +1,58 @@
+.loadingContainer {
+    width:100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.statusBar {
+    width:70%;
+    display:block;
+    margin:0 auto;
+    height:13px;
+    border-radius:30px;
+    background-color:rgba(255,255,255,0.4);
+}
+
+.statusBarCounter {
+    border-radius:30px;
+    height:100%;
+    background-color:gold;
+}
+
+.pokemonList {
+    padding:3px;
+    width:100%;
+    height:90%;
+    margin-top:20px;
+    border-radius:20px;
+    background-color: rgba(120,120,120,0.2);
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    overflow-x:hidden;
+    overflow-y:auto;
+    flex-wrap: wrap;
+}
+
+.pokemon {
+    display:block;
+    width:96px;
+    margin:3px;
+    background-color:rgba(255,255,255,0.02);
+    border-radius:8px;
+    max-height:180px;
+}
+
+.pokemon p {
+    width:100%;
+    color:white;
+    text-align:center;
+    font-family:"Roboto";
+    margin:5px 0;
+}
+
+.pokemon img {
+    width:96px;
+    height:96px;
+}
